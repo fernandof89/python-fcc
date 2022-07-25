@@ -1,0 +1,4 @@
+# After defining a string, list, dict, tuple I can check the available functions using:
+dir(variable)
+
+#tuples cannot be modified, for temporary variables usually
