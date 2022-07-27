@@ -2,3 +2,9 @@
 dir(variable)
 
 #tuples cannot be modified, for temporary variables usually
+
+#Extract content from a web, decoded for taking the bits into strings.
+import urllib.request
+fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
+for line in fhand:
+    print(line.decode().strip())
