@@ -12,3 +12,15 @@ for line in fhand:
 #rjust - to justify to the right, uses the value of indexes and what to fill with.
 a = 'This is a string'
 a.rjust(10, 'x') 
+
+#To avoid adding space at the end of a string
+    if problem != problems[-1]:
+      first += top + '    '
+      second += bottom + '    '
+      lines += line + '    '
+      sumx += res + '    '
+    else:
+      first += top
+      second += bottom
+      lines += line
+      sumx += res
