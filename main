@@ -24,3 +24,8 @@ a.rjust(10, 'x')
       second += bottom
       lines += line
       sumx += res
+
+#Two variables iteration
+jjj = {'chuck' : 1, 'fred' : 3}
+for aaa,bbb in jjj.item():
+    print (aaa,bbb)
